@@ -1,0 +1,82 @@
+ *{
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+     list-style: none;
+ }     
+ body{
+     font-family:'poppins'sans-serif ;
+     font-size: 16px
+ }    
+
+
+
+ .huddle-container{
+     flex-direction: column;
+     align-content: center;
+     justify-content: center;
+ }
+
+
+
+ .flex-logo{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 1.5em auto;
+    
+      
+ }
+
+ .btn{
+border: none;
+outline: none;
+     background-color:hsl(321, 100%, 78%) ;
+     color: white;
+     font-size: 24px;
+     font-family: 'open-sans' sans-serif;
+     border-radius: 10px;
+    
+    
+ }
+
+
+
+
+ .fans{
+     font-family: 'poppins' sans-serif;
+     font-weight: 500;
+     font-size: 24px;
+     margin: 1em;
+     
+ }
+ .build{
+     font-family: 'open-sans' sans-serif;
+     font-weight: 200;
+     font-size: 1.5em;
+     margin-left: 1em;
+ }
+
+ .btn2{
+     border: none;
+     outline: none;
+     background-color:hsl(322, 100%, 66%);
+     color: white;
+border-radius: 8em;
+margin-left: 3em;
+padding-left: 1em;
+padding-right: 1em;
+padding-top: 1em;
+padding-bottom: 1em;
+cursor: pointer;
+
+}
+
+.img{
+    width: 100%;
+    margin-left: 3em;
+}
+
+.social-growth container{
+    display: flex;
+}
