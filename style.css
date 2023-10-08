@@ -1,114 +1,165 @@
- *{
+ * {
      box-sizing: border-box;
      padding: 0;
      margin: 0;
-     
  }
-     
-.body{
-    font-family: "poppins" sans-serif;
-    font-size: 18px;
-    font-weight: 600px;
-}
 
-.flex-logo{
+ .body {
+   width: 100%;
+   height: 100vh;
+ }
+
+ .main-container{
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+ }
+ .flex-logo {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
-}
-.flex-logo img{
-    margin-top: 10px;
-    margin-left: 28px;
-
 }
 .flex-logo button{
-margin-top: 15px;
-border: none;
-outline: none;
-font-size: 18px;
-padding: 15px 34px;
+border: 1px solid hsl(321, 100%, 78%);
 border-radius: 25px;
-background-color: hsl(321, 100%, 78%);
-color: white;
-
+color:  hsl(321, 100%, 78%);
+background-color: transparent;
+width: 100px;    
+/* //how fat you want  */
+height: 30px; 
+text-transform: capitalize;
+ /* // how long  */
+/* padding: 2em 1em; */
 }
-
-.flex-logo button :hover{
-    opacity: 0.6;
-}
-
-.build-sec{
-    font-family: "poppins" sans-serif;
-    font-size: 18px;
-    margin-left: 50px;
-    margin-top: 30px;
-}
-
-
-.build-content{
+.flex-communities{
     display: flex;
-flex-direction: column;
-    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 6em; */
+}
+.flex-communities div{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.flex-communities img{
+   width: 30px;
+   height:30px;
+}
+section{
+    display: flex;
+}
+.section-one{
+    background-image: url("./images/bg-section-bottom-desktop-1.svg");
+    background-repeat: no-repeat;
+    /* height: 300px; */
+    display: flex;
+    padding: 9em 0;
+}
+section img{
+    width: 100%;
+    height: 300px;
+
+}
+ul li{
+    text-decoration-style: none;
+}
+footer{
+    background-image: url("./images/bg-footer-top-desktop.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    /* background-size: 400px; */
+    /* height: 500px; */
+    /* background-color: hsl(192, 100%, 9%); */
+}
+.flex{
+    background-color: hsl(192, 100%, 9%);
+}
+.flex ul{
+    list-style: none;
+    /* remove the li bulletpoint  */
+}
+
+
+ /* .flex-logo {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .flex-logo img {
+     margin-top: 10px;
+     margin-left: 28px;
+ }
+
+ .flex-logo button {
+     margin-top: 15px;
+     border: none;
+     outline: none;
+     font-size: 18px;
+     padding: 15px 34px;
+     border-radius: 25px;
+     background-color: hsl(321, 100%, 78%);
+     color: white;
+ }
+
+ .flex-logo button :hover {
+     opacity: 0.6;
+ }
+
+ .build-sec {
+     font-family: "poppins" sans-serif;
+     font-size: 18px;
+     margin-left: 50px;
+     margin-top: 30px;
+ }
+
+ .build-content {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
      font-family: "poppins" sans-serif;
      font-size: 18px;
      font: weight 200px;
-}
-.build-content h1{
-margin-bottom: 15px;
+ }
 
-}
-.build-content p{
-    font-size: 18px;
-    font-weight: 200px;
-    margin-left: 15px;
-    margin-right: 12px;
+ .build-content h1 {
+     margin-bottom: 15px;
+
+ }
+
+ .build-content p {
+     font-size: 18px;
+     font-weight: 200px;
+     margin-left: 15px;
+     margin-right: 12px;
      width: 450px;
 
-}
-.build-content button{
-    margin-top: 1em;
-    margin-bottom: 0.8em;
-    border: none;
-    font-size: 18px;
-    padding: 16px 30px;
-    border-radius: 20px;
-    background-color:hsl(322, 100%, 66%) ;
-    color: white;
-}  
+ }
 
-.img-screen{
-    
-}
+ .build-content button {
+     margin-top: 1em;
+     margin-bottom: 0.8em;
+     border: none;
+     font-size: 18px;
+     padding: 16px 30px;
+     border-radius: 20px;
+     background-color: hsl(322, 100%, 66%);
+     color: white;
+ }
 
+ .img-screen {}
 
+ .flex-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
 
-.flex-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
- 
-}
-  
-  
-.card-one{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+ }
+
+ .card-one {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
      margin-left: 75px;
-}
-    
-
-
-    
-
-
-
-
-
-
- 
-
-
-
+ } */
