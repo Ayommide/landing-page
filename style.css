@@ -14,10 +14,15 @@
     display: flex;
     flex-direction: column;
     gap: 2em;
+    background-color: red;
+    
+    
  }
  .flex-logo {
     display: flex;
     justify-content: space-between;
+    padding: 1em 1em;
+
 }
 .flex-logo button{
 border: 1px solid hsl(321, 100%, 78%);
@@ -31,6 +36,55 @@ text-transform: capitalize;
  /* // how long  */
 /* padding: 2em 1em; */
 }
+
+.build-sec{
+padding: 7em 5em;
+
+}
+
+
+.build-content{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+
+.build-content h1{
+    font-family:"poppins" sans-serif ;
+    padding: 12px;
+}
+
+
+.build-content p{
+    font-family: "open sans" sans-serif;
+    font-weight: 200px;
+    width: 420px;
+
+}   
+  .build-content button{
+      margin: 30px;
+      padding: 10px;
+      border-radius: 25px;
+      width: 270px;
+      height: 55px;
+      background-color: hsl(322, 100%, 66%);
+      border: none;
+      color: white;
+      font-size: 15px;
+      outline: none;
+  }
+.started-button :hover{
+    opacity: 0.6;
+}
+
+.build-sec img{
+width: 100%;
+height: 500px;  
+}
+
+
+
 .flex-communities{
     display: flex;
     justify-content: space-evenly;
@@ -45,21 +99,54 @@ text-transform: capitalize;
    width: 30px;
    height:30px;
 }
+
+.flex-communities h1{
+    font-family: "poppins" sans-serif;
+    font-size: 55px;
+    
+}
+
+.flex-communities p{
+     font-family: "open sans" sans-serif;
+     font-size: 20px;
+     text-transform: capitalize;
+     
+}
+
+
+
 section{
     display: flex;
 }
 .section-one{
-    background-image: url("./images/bg-section-bottom-desktop-1.svg");
+    background-image: url(./images/bg-section-bottom-desktop-1.svg);
     background-repeat: no-repeat;
     /* height: 300px; */
     display: flex;
-    padding: 9em 0;
-}
+      padding: 9em 0;
+      background-size: cover;
+      
+}     
 section img{
     width: 100%;
     height: 300px;
 
 }
+
+.content-grow{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 ul li{
     text-decoration-style: none;
 }
@@ -71,6 +158,7 @@ footer{
     /* height: 500px; */
     /* background-color: hsl(192, 100%, 9%); */
 }
+
 .flex{
     background-color: hsl(192, 100%, 9%);
 }
